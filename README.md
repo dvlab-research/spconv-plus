@@ -39,6 +39,7 @@ spconv.SparseMaxPool3d(3, 1, 1, subm=True, algo=ConvAlgo.Native, indice_key='max
 
 
 ## 2. Installation
+This repo is based on cumm==0.2.8, pccm==0.3.4
 This repo should be built from source. Following the readme file in the spconv library,
 
 - install build-essential, install CUDA
