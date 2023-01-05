@@ -7,19 +7,19 @@ This project is based on the original [spconv](https://github.com/traveller59/sp
 ### Focals Conv
 This is introduced in our [CVPR 2022 (oral) paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Chen_Focal_Sparse_Convolutional_Networks_for_3D_Object_Detection_CVPR_2022_paper.pdf). In this paper, we introduce a new type of sparse convolution that makes feature sparsity learnable with position-wise importance prediction. 
 
-The source code for this operator in this library is [Focals Conv](). The example for use this work is shown in its [repo](https://github.com/dvlab-research/FocalsConv/blob/master/OpenPCDet/pcdet/models/backbones_3d/focal_sparse_conv/focal_sparse_conv_cuda.py).
+The source code for this operator in this library is [Focals Conv](https://github.com/dvlab-research/spconv-plus/blob/85bc7567b6f867c50580b2291aeb086ad0485489/spconv/pytorch/conv.py#L1010). The example for use this work is shown in its [repo](https://github.com/dvlab-research/FocalsConv/blob/master/OpenPCDet/pcdet/models/backbones_3d/focal_sparse_conv/focal_sparse_conv_cuda.py).
 
 
 ### Spatial Pruned Conv
 This is introduced in our [NeurIPS 2022 paper](https://openreview.net/pdf?id=QqWqFLbllZh). In this paper, we propose two new convolution operators, spatial pruned submanifold sparse convolution (SPSS-Conv) and spatial pruned regular sparse convolution (SPRS-Conv), both of which are based on the idea of dynamically determining crucial areas for redundancy reduction.
 
-The source codes for these two operators in this library are shown in [SPSSConv3d]() and [SPRSConv3d](). The example for them can be found in this [file](https://github.com/dvlab-research/spconv-plus/blob/master/examples.py) and its [repo](https://github.com/CVMI-Lab/SPS-Conv).
+The source codes for these two operators in this library are shown in [SPSSConv3d](https://github.com/dvlab-research/spconv-plus/blob/85bc7567b6f867c50580b2291aeb086ad0485489/spconv/pytorch/conv.py#L980) and [SPRSConv3d](https://github.com/dvlab-research/spconv-plus/blob/85bc7567b6f867c50580b2291aeb086ad0485489/spconv/pytorch/conv.py#L1104). The example for them can be found in this [file](https://github.com/dvlab-research/spconv-plus/blob/master/examples.py) and its [repo](https://github.com/CVMI-Lab/SPS-Conv).
 
 
 ### Spatial-wise Group Conv
 This is introduced in our [Arxiv paper](https://arxiv.org/pdf/2206.10555.pdf). In this paper, we introduce spatial-wise group (partition) convolution, that enables an efficient way to implement 3D large kernels.
 
-The source code for this operators in this library is shown in [SpatialGroupConv3d](). The example for it is shown in this [file](https://github.com/dvlab-research/spconv-plus/blob/master/examples.py).
+The source code for this operators in this library is shown in [SpatialGroupConv3d](https://github.com/dvlab-research/spconv-plus/blob/85bc7567b6f867c50580b2291aeb086ad0485489/spconv/pytorch/conv.py#L1070). The example for it is shown in this [file](https://github.com/dvlab-research/spconv-plus/blob/master/examples.py).
 
 
 ### Channel-wise Group Conv
