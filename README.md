@@ -9,8 +9,7 @@ This is introduced in our [CVPR 2022 (oral) paper](https://openaccess.thecvf.com
 
 The source code for this operator in this library is [Focals Conv](https://github.com/dvlab-research/spconv-plus/blob/85bc7567b6f867c50580b2291aeb086ad0485489/spconv/pytorch/conv.py#L1010). The example for use this work is shown in its [repo](https://github.com/dvlab-research/FocalsConv/blob/master/OpenPCDet/pcdet/models/backbones_3d/focal_sparse_conv/focal_sparse_conv_cuda.py).
 
-<p align="center"> <img src="imgs/regular-conv.gif" width="30%"> </p>
-<p align="center"> <img src="imgs/focal-sparse-conv.gif" width="30%"> </p>
+<p align="center"> <img src="imgs/regular-conv.gif" width="30%"> <img src="imgs/focal-sparse-conv.gif" width="30%"> </p>
 
 
 ### Spatial Pruned Conv
