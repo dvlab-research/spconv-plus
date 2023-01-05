@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: spconv
+Version: 2.1.21
+Summary: spatial sparse convolution
+Home-page: https://github.com/traveller59/spconv
+Author: Yan Yan
+Author-email: yanyan.sub@outlook.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+
+# spconv-plus: A flexible sparse convolution library for 3D deep learning
+
+1. Core Spconv Engine.
+- [ ] Focals Conv
+- [ ] Spatial Pruned Conv
+- [ ] LargeKernel3D (Spatial-wise Group Conv)
+- [ ] Channel-wise Group Conv
+
+2. Example networks.
+- [ ] Object Detection: KITTI, nuScenes, Waymo.
+- [ ] Indoor Semantic Segmentation: ScanNetv2, S3DIS.
+- [ ] Outdoor Semantic Segmentation: Semantic KITTI, nuScenes.
+- [ ] Instance Segmentation: ScanNetv2, PointGroup.
+
+
+3. Speed Benchmark 
+- [ ] Speed on NVDIA GPU 2080Ti.
+
+4. Documents.
+- [ ] interfaces
+- [ ] usages.
+
+5. TensorRT support.
+(To finish this before graduation.)
+
+
+

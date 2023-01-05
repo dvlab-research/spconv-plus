@@ -1,0 +1,5 @@
+pccm>=0.2.21
+pybind11>=2.6.0
+fire
+numpy
+cumm>=0.2.8
