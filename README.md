@@ -13,13 +13,13 @@ The source code for this operator in this library is [Focals Conv](). The exampl
 ### Spatial Pruned Conv
 This is introduced in our [NeurIPS 2022 paper](https://openreview.net/pdf?id=QqWqFLbllZh). In this paper, we propose two new convolution operators, spatial pruned submanifold sparse convolution (SPSS-Conv) and spatial pruned regular sparse convolution (SPRS-Conv), both of which are based on the idea of dynamically determining crucial areas for redundancy reduction.
 
-The source codes for these two operators in this library are shown in [SPSSConv3d]() and [SPRSConv3d](). The example for them can be found in this [file]() and its [repo](https://github.com/CVMI-Lab/SPS-Conv).
+The source codes for these two operators in this library are shown in [SPSSConv3d]() and [SPRSConv3d](). The example for them can be found in this [file](https://github.com/dvlab-research/spconv-plus/blob/master/examples.py) and its [repo](https://github.com/CVMI-Lab/SPS-Conv).
 
 
 ### Spatial-wise Group Conv
 This is introduced in our [Arxiv paper](https://arxiv.org/pdf/2206.10555.pdf). In this paper, we introduce spatial-wise group (partition) convolution, that enables an efficient way to implement 3D large kernels.
 
-The source code for this operators in this library is shown in [SpatialGroupConv3d](). The example for it is shown in this [file]().
+The source code for this operators in this library is shown in [SpatialGroupConv3d](). The example for it is shown in this [file](https://github.com/dvlab-research/spconv-plus/blob/master/examples.py).
 
 
 ### Channel-wise Group Conv
