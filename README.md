@@ -35,6 +35,7 @@ This is the commonly-used group convolution. We implement this operator into thi
 ### Submanifold Sparse Max Pooling
 We enable the submanifold version of sparse max pooling in this library. You can directly set "subm=True" when using SparseMaxPool3d. 
 For example,
+
 ```spconv.SparseMaxPool3d(3, 1, 1, subm=True, algo=ConvAlgo.Native, indice_key='max_pool')```
 
 
